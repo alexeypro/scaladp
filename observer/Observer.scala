@@ -1,0 +1,3 @@
+trait Observer {
+	def update()	
+}
