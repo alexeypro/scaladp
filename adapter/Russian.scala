@@ -1,3 +1,4 @@
-class Russian extends Language {
-	def sayHello { println("Privet") }
+// russian, not an adapter, but language
+class Russian {
+	def sayPrivet { println("Privet") }
 }

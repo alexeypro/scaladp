@@ -1,5 +1,5 @@
 // adapter from english to russian
-class RussianAdapter extends Language {
+class RussianAdapter extends EnglishLanguage {
 	private val lang = new Russian
-	def sayHello { this.lang.sayPrivet }
+	override def sayHello { this.lang.sayPrivet }
 }

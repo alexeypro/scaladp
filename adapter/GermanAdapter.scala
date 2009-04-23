@@ -1,5 +1,5 @@
 // adapter from english to german
-class GermanAdapter extends Language {
+class GermanAdapter extends EnglishLanguage {
 	private val lang = new German
-	def sayHello { this.lang.sayGutenTag }
+	override def sayHello { this.lang.sayGutenTag }
 }
